@@ -1,0 +1,89 @@
+h1  {
+    color: coral;
+    text-align: center;
+    font-style: italic;
+}
+h3  {
+    color: rgb(43, 43, 110);    
+} 
+li  {
+    color: coral;
+}
+table   {
+    color: cornflowerblue;
+}
+nav     {
+    text-align: center;
+    border: rgb(0, 0, 236);
+    padding-top: 5%;
+    padding-bottom: 10%;
+    font-style: italic;
+    word-spacing: 150px;
+}
+a   {
+    text-align: right;
+}
+body    {
+    background-color: rgb(206, 184, 195)
+}
+fieldset    {
+    background-color: white;
+    margin-bottom: 5px;
+
+}
+input   {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+label   {
+    margin-top: 15px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+select  {
+    margin-bottom: 15px;
+}
+option  {
+    margin-bottom: 15px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.flex-container {
+    display: flex;
+    background-color: rgb(206, 184, 195);
+    padding: 7px;
+    justify-content: right;
+}
+div {
+    flex-direction: row;
+    flex-wrap: wrap;   
+    margin-left: 15px;
+    border: 1px solid black;
+    height: auto;
+}
+div:hover  {
+    background-color: rgb(211, 168, 168);
+    transition: background-color(2seg);
+}
+.grid {
+    display: grid;
+    background-image: linear-gradient(black white);
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50px 50px;
+    justify-content: center;
+
+}
+.grid div{
+    background-color: rgb(171, 229, 231);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+.item1      {
+    font-family: sans-serif;
+}
+.item2  {
+    font-family: sans-serif;
+}
